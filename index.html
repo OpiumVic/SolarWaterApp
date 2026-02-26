@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AquaVolt Engineering | Water & Energy Solutions</title>
+    <meta name="description"
+        content="AquaVolt Engineering delivers world-class borehole drilling, water treatment, solar backup systems, and engineering consultancy across Africa.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ========== NAVIGATION ========== -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2.5" />
+                    <path
+                        d="M20 8C20 8 12 18 12 23C12 27.4183 15.5817 31 20 31C24.4183 31 28 27.4183 28 23C28 18 20 8 20 8Z"
+                        fill="currentColor" opacity="0.3" />
+                    <path
+                        d="M20 8C20 8 12 18 12 23C12 27.4183 15.5817 31 20 31C24.4183 31 28 27.4183 28 23C28 18 20 8 20 8Z"
+                        stroke="currentColor" stroke-width="2" />
+                    <path d="M15 22L18 19L22 23L25 20" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+                <span class="logo-text">Trevcon<span class="logo-accent">Engineering</span></span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#contact" class="btn btn-primary nav-cta">Get a Quote</a>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ========== HERO SECTION ========== -->
+    <header class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="hero-gradient"></div>
+            <div class="hero-grid-overlay"></div>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge" data-animate="fade-up">
+                    <span class="badge-dot"></span>
+                    Engineering Excellence Since 2012
+                </div>
+                <h1 class="hero-title" data-animate="fade-up" data-delay="100">
+                    Water & Energy<br>
+                    <span class="gradient-text">Engineered Right.</span>
+                </h1>
+                <p class="hero-subtitle" data-animate="fade-up" data-delay="200">
+                    From deep borehole drilling to solar-powered infrastructure, we deliver turnkey water and energy
+                    solutions that sustain communities and power industries.
+                </p>
+                <div class="hero-actions" data-animate="fade-up" data-delay="300">
+                    <a href="#services" class="btn btn-primary btn-lg">
+                        Explore Services
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14" />
+                            <path d="m12 5 7 7-7 7" />
+                        </svg>
+                    </a>
+                    <a href="#projects" class="btn btn-outline btn-lg">View Projects</a>
+                </div>
+                <div class="hero-stats" data-animate="fade-up" data-delay="400">
+                    <div class="hero-stat">
+                        <span class="hero-stat-number" data-count="500">0</span><span class="hero-stat-suffix">+</span>
+                        <span class="hero-stat-label">Boreholes Drilled</span>
+                    </div>
+                    <div class="hero-stat-divider"></div>
+                    <div class="hero-stat">
+                        <span class="hero-stat-number" data-count="12">0</span><span class="hero-stat-suffix">
+                            yrs</span>
+                        <span class="hero-stat-label">Industry Experience</span>
+                    </div>
+                    <div class="hero-stat-divider"></div>
+                    <div class="hero-stat">
+                        <span class="hero-stat-number" data-count="98">0</span><span class="hero-stat-suffix">%</span>
+                        <span class="hero-stat-label">Client Satisfaction</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual" data-animate="fade-left" data-delay="200">
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-card">
+                        <img src="https://images.unsplash.com/photo-1504893524553-b855bce32c67?w=700&h=900&fit=crop&crop=center"
+                            alt="Water engineering infrastructure" class="hero-image" loading="eager">
+                        <div class="hero-image-overlay"></div>
+                    </div>
+                    <div class="hero-floating-card card-top">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0ea5e9" stroke-width="2">
+                            <path
+                                d="M12 2v6m0 8v6M4.93 4.93l4.24 4.24m5.66 5.66l4.24 4.24M2 12h6m8 0h6M4.93 19.07l4.24-4.24m5.66-5.66l4.24-4.24" />
+                        </svg>
+                        <div>
+                            <strong>Solar Powered</strong>
+                            <span>Off-grid ready systems</span>
+                        </div>
+                    </div>
+                    <div class="hero-floating-card card-bottom">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                            <polyline points="22 4 12 14.01 9 11.01" />
+                        </svg>
+                        <div>
+                            <strong>ISO Certified</strong>
+                            <span>Quality guaranteed</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <div class="scroll-line"></div>
+        </div>
+    </header>
+
+    <!-- ========== SERVICES SECTION ========== -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">What We Do</span>
+                <h2 class="section-title">Full-Spectrum Water & Energy Services</h2>
+                <p class="section-subtitle">End-to-end engineering solutions designed, built, and maintained by our
+                    expert teams.</p>
+            </div>
+
+            <div class="services-grid">
+
+                <!-- Service 1: Borehole Drilling -->
+                <div class="service-card" data-animate="fade-up" data-delay="0">
+                    <div class="service-card-image">
+                        <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&h=400&fit=crop"
+                            alt="Borehole drilling operations" loading="lazy">
+                        <div class="service-card-image-overlay"></div>
+                    </div>
+                    <div class="service-card-content">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="20" y="4" width="8" height="40" rx="2" stroke="currentColor"
+                                    stroke-width="2.5" />
+                                <path d="M16 12H32" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
+                                <path d="M14 20H34" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
+                                <path d="M16 28H32" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
+                                <path d="M24 44L20 38H28L24 44Z" fill="currentColor" />
+                                <circle cx="24" cy="8" r="2" fill="currentColor" />
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Borehole Drilling & Equipping</h3>
+                        <p class="service-description">Precision rotary and DTH drilling up to 350m depth. Complete
+                            equipping with submersible pumps, casings, and yield testing.</p>
+                        <ul class="service-features">
+                            <li>Geophysical site surveys</li>
+                            <li>Rotary & percussion drilling</li>
+                            <li>Pump installation & testing</li>
+                            <li>Post-drill water quality analysis</li>
+                        </ul>
+                        <a href="#contact" class="service-link">
+                            Request Assessment
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M5 12h14" />
+                                <path d="m12 5 7 7-7 7" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 2: Water Treatment -->
+                <div class="service-card" data-animate="fade-up" data-delay="100">
+                    <div class="service-card-image">
+                        <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&h=400&fit=crop"
+                            alt="Water treatment facility" loading="lazy">
+                        <div class="service-card-image-overlay"></div>
+                    </div>
+                    <div class="service-card-content">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 36C8 36 12 32 16 32C20 32 20 36 24 36C28 36 28 32 32 32C36 32 40 36 40 36"
+                                    stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
+                                <path d="M8 28C8 28 12 24 16 24C20 24 20 28 24 28C28 28 28 24 32 24C36 24 40 28 40 28"
+                                    stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
+                                <path d="M24 6L24 20" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
+                                <path d="M18 14L24 20L30 14" stroke="currentColor" stroke-width="2.5"
+                                    stroke-linecap="round" />
+                                <circle cx="12" cy="42" r="2" fill="currentColor" />
+                                <circle cx="24" cy="42" r="2" fill="currentColor" />
+                                <circle cx="36" cy="42" r="2" fill="currentColor" />
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Water Treatment</h3>
+                        <p class="service-description">Advanced filtration and purification systems for municipal,
+                            industrial, and residential applications. WHO-compliant output.</p>
+                        <ul class="service-features">
+                            <li>Reverse osmosis systems</li>
+                            <li>Chemical dosing & pH control</li>
+                            <li>Bacteria & sediment removal</li>
+                        </ul>
+                        <a href="#contact" class="service-link">
+                            Learn More
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M5 12h14" />
+                                <path d="m12 5 7 7-7 7" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 3: Water Storage -->
+                <div class="service-card" data-animate="fade-up" data-delay="200">
+                    <div class="service-card-image">
+                        <img src="https://images.unsplash.com/photo-1562016600-ece13e8ba570?w=600&h=400&fit=crop"
+                            alt="Water storage tanks" loading="lazy">
+                        <div class="service-card-image-overlay"></div>
+                    </div>
+                    <div class="service-card-content">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M10 16C10 12 14 8 24 8C34 8 38 12 38 16V36C38 40 34 44 24 44C14 44 10 40 10 36V16Z"
+                                    stroke="currentColor" stroke-width="2.5" />
+                                <ellipse cx="24" cy="16" rx="14" ry="6" stroke="currentColor" stroke-width="2.5" />
+                                <path d="M10 26C10 26 14 30 24 30C34 30 38 26 38 26" stroke="currentColor"
+                                    stroke-width="2.5" opacity="0.4" />
+                                <path d="M14 34L18 30L22 34L26 30L30 34L34 30" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" opacity="0.6" />
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Water Storage Tanks</h3>
+                        <p class="service-description">Food-grade polyethylene, steel, and concrete reservoir solutions
+                            from 1,000L to 500,000L capacity.</p>
+                        <ul class="service-features">
+                            <li>Elevated & ground-level tanks</li>
+                            <li>Concrete reservoir construction</li>
+                            <li>Automated level monitoring</li>
+                        </ul>
+                        <a href="#contact" class="service-link">
+                            Learn More
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M5 12h14" />
+                                <path d="m12 5 7 7-7 7" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 4: Solar Backup -->
+                <div class="service-card" data-animate="fade-up" data-delay="0">
+                    <div class="service-card-image">
+                        <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600&h=400&fit=crop"
+                            alt="Solar panel installation" loading="lazy">
+                        <div class="service-card-image-overlay"></div>
+                    </div>
+                    <div class="service-card-content">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="24" cy="24" r="8" stroke="currentColor" stroke-width="2.5" />
+                                <path d="M24 4V10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
+                                <path d="M24 38V44" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
+                                <path d="M4 24H10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
+                                <path d="M38 24H44" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
+                                <path d="M9.86 9.86L14.1 14.1" stroke="currentColor" stroke-width="2.5"
+                                    stroke-linecap="round" />
+                                <path d="M33.9 33.9L38.14 38.14" stroke="currentColor" stroke-width="2.5"
+                                    stroke-linecap="round" />
+                                <path d="M9.86 38.14L14.1 33.9" stroke="currentColor" stroke-width="2.5"
+                                    stroke-linecap="round" />
+                                <path d="M33.9 14.1L38.14 9.86" stroke="currentColor" stroke-width="2.5"
+                                    stroke-linecap="round" />
+                                <path d="M22 20L20 24H28L26 28" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Solar Backup Systems</h3>
+                        <p class="service-description">Grid-tied and off-grid photovoltaic systems with lithium battery
+                            storage. Reliable power for pumps and facilities.</p>
+                        <ul class="service-features">
+                            <li>Solar pump controllers</li>
+                            <li>Lithium-ion battery banks</li>
+                            <li>Hybrid inverter systems</li>
+                        </ul>
+                        <a href="#contact" class="service-link">
+                            Learn More
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M5 12h14" />
+                                <path d="m12 5 7 7-7 7" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 5: Civil Works -->
+                <div class="service-card" data-animate="fade-up" data-delay="100">
+                    <div class="service-card-image">
+                        <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&h=400&fit=crop"
+                            alt="Civil construction works" loading="lazy">
+                        <div class="service-card-image-overlay"></div>
+                    </div>
+                    <div class="service-card-content">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 42H42" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
+                                <path d="M10 42V22L24 12L38 22V42" stroke="currentColor" stroke-width="2.5" />
+                                <path d="M18 42V32H30V42" stroke="currentColor" stroke-width="2.5" />
+                                <rect x="14" y="24" width="6" height="5" stroke="currentColor" stroke-width="2" />
+                                <rect x="28" y="24" width="6" height="5" stroke="currentColor" stroke-width="2" />
+                                <path d="M24 12V6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Civil Works</h3>
+                        <p class="service-description">Structural and civil engineering for pump houses, pipeline
+                            networks, reservoirs, and water distribution infrastructure.</p>
+                        <ul class="service-features">
+                            <li>Pipeline installation</li>
+                            <li>Pump house construction</li>
+                            <li>Foundation & structural works</li>
+                        </ul>
+                        <a href="#contact" class="service-link">
+                            Learn More
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M5 12h14" />
+                                <path d="m12 5 7 7-7 7" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 6: Engineering Consultancy -->
+                <div class="service-card" data-animate="fade-up" data-delay="200">
+                    <div class="service-card-image">
+                        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop"
+                            alt="Engineering consultancy meeting" loading="lazy">
+                        <div class="service-card-image-overlay"></div>
+                    </div>
+                    <div class="service-card-content">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="8" y="6" width="32" height="36" rx="3" stroke="currentColor"
+                                    stroke-width="2.5" />
+                                <path d="M16 16H32" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
+                                <path d="M16 24H28" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
+                                <path d="M16 32H24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
+                                <circle cx="34" cy="34" r="8" fill="var(--bg-primary)" stroke="currentColor"
+                                    stroke-width="2.5" />
+                                <path d="M32 34L34 36L37 32" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Engineering Consultancy</h3>
+                        <p class="service-description">Feasibility studies, EIA reports, project management, and
+                            technical design for water and energy infrastructure.</p>
+                        <ul class="service-features">
+                            <li>Feasibility & EIA studies</li>
+                            <li>Technical design & BOQ</li>
+                            <li>Project management</li>
+                        </ul>
+                        <a href="#contact" class="service-link">
+                            Learn More
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M5 12h14" />
+                                <path d="m12 5 7 7-7 7" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ABOUT / WHY US SECTION ========== -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-images" data-animate="fade-right">
+                    <div class="about-image-main">
+                        <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=600&h=750&fit=crop"
+                            alt="Engineering team on site" loading="lazy">
+                    </div>
+                    <div class="about-image-secondary">
+                        <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=400&h=300&fit=crop"
+                            alt="Water infrastructure project" loading="lazy">
+                    </div>
+                    <div class="about-experience-badge">
+                        <span class="experience-number">12+</span>
+                        <span class="experience-text">Years of<br>Excellence</span>
+                    </div>
+                </div>
+                <div class="about-content" data-animate="fade-left">
+                    <span class="section-tag">Why AquaVolt</span>
+                    <h2 class="section-title">Built on Engineering Precision. Driven by Impact.</h2>
+                    <p class="about-text">We combine deep technical expertise with on-the-ground experience to deliver
+                        water and energy solutions that work&mdash;reliably, efficiently, and sustainably. Every project
+                        is engineered to the highest standards, from concept through commissioning.</p>
+
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Quality Guaranteed</h4>
+                                <p>Every project backed by warranty and post-installation support.</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <path d="M12 6v6l4 2" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>On-Time Delivery</h4>
+                                <p>Disciplined project management ensures we meet every deadline.</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                                    <circle cx="9" cy="7" r="4" />
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Expert Team</h4>
+                                <p>Licensed engineers, geologists, and technicians on every project.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PROJECTS / SHOWCASE ========== -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Our Work</span>
+                <h2 class="section-title">Proven Results Across Sectors</h2>
+                <p class="section-subtitle">From rural communities to large-scale industrial clients, our portfolio
+                    speaks for itself.</p>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card project-card-large" data-animate="fade-up">
+                    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&h=600&fit=crop"
+                        alt="Solar farm installation project" loading="lazy">
+                    <div class="project-overlay">
+                        <span class="project-category">Solar + Water</span>
+                        <h3 class="project-title">Kariba Solar Pump Station</h3>
+                        <p class="project-desc">40kW solar array powering 6 boreholes serving 12,000+ residents</p>
+                    </div>
+                </div>
+                <div class="project-card" data-animate="fade-up" data-delay="100">
+                    <img src="https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=600&h=500&fit=crop"
+                        alt="Water treatment plant" loading="lazy">
+                    <div class="project-overlay">
+                        <span class="project-category">Water Treatment</span>
+                        <h3 class="project-title">Municipal Water Plant</h3>
+                        <p class="project-desc">5ML/day capacity treatment plant upgrade</p>
+                    </div>
+                </div>
+                <div class="project-card" data-animate="fade-up" data-delay="200">
+                    <img src="https://images.unsplash.com/photo-1590069261209-f8e9b8642343?w=600&h=500&fit=crop"
+                        alt="Borehole drilling project" loading="lazy">
+                    <div class="project-overlay">
+                        <span class="project-category">Borehole Drilling</span>
+                        <h3 class="project-title">Agricultural Estate Wells</h3>
+                        <p class="project-desc">15 production boreholes for 2,000-hectare irrigation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== BLOG SECTION ========== -->
+    <section class="blog" id="blog">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Insights & Expertise</span>
+                <h2 class="section-title">From the Field: Our Latest Articles</h2>
+                <p class="section-subtitle">Practical engineering knowledge, project insights, and industry trends from
+                    our team of specialists.</p>
+            </div>
+
+            <div class="blog-grid">
+
+                <!-- Article 1 -->
+                <article class="blog-card blog-card-featured" data-animate="fade-up" data-delay="0">
+                    <div class="blog-card-image">
+                        <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800&h=500&fit=crop"
+                            alt="Solar panels powering water pumps" loading="lazy">
+                        <div class="blog-card-image-overlay"></div>
+                        <span class="blog-category">Solar + Water</span>
+                    </div>
+                    <div class="blog-card-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">Jan 14, 2025</span>
+                            <span class="blog-read">8 min read</span>
+                        </div>
+                        <h3 class="blog-title">Why Solar-Powered Boreholes Are Replacing Diesel Pumps Across Rural
+                            Africa</h3>
+                        <p class="blog-excerpt">Diesel-powered borehole pumps have been the backbone of rural water
+                            supply for decades, but the economics are shifting fast. With solar panel costs dropping
+                            over 80% in the last ten years, communities and municipalities are making the switch to
+                            photovoltaic pump systems — and the results speak for themselves. Solar borehole systems
+                            eliminate recurring fuel costs, reduce carbon output, and deliver water with near-zero
+                            operating expense. In our experience across 150+ solar conversions, clients typically
+                            recover their capital investment within 18 to 24 months, while gaining a system that
+                            requires only annual maintenance rather than weekly fuel runs. The key lies in proper system
+                            sizing: matching panel capacity to pump demand curves, factoring in seasonal irradiance
+                            variation, and integrating battery storage for cloudy-day resilience.</p>
+                        <a href="#" class="blog-link">
+                            Read Full Article
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M5 12h14" />
+                                <path d="m12 5 7 7-7 7" />
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Article 2 -->
+                <article class="blog-card" data-animate="fade-up" data-delay="100">
+                    <div class="blog-card-image">
+                        <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&h=360&fit=crop"
+                            alt="Water flowing from borehole" loading="lazy">
+                        <div class="blog-card-image-overlay"></div>
+                        <span class="blog-category">Borehole Drilling</span>
+                    </div>
+                    <div class="blog-card-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">Dec 3, 2024</span>
+                            <span class="blog-read">6 min read</span>
+                        </div>
+                        <h3 class="blog-title">5 Signs Your Borehole Needs Rehabilitation — Before It Fails Completely
+                        </h3>
+                        <p class="blog-excerpt">Declining yield, sand production, and murky water are early warnings
+                            most operators ignore. Here's how to spot the signs and act before a total collapse costs
+                            you ten times more than preventive rehabilitation.</p>
+                        <a href="#" class="blog-link">
+                            Read Article
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M5 12h14" />
+                                <path d="m12 5 7 7-7 7" />
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Article 3 -->
+                <article class="blog-card" data-animate="fade-up" data-delay="200">
+                    <div class="blog-card-image">
+                        <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&h=360&fit=crop"
+                            alt="Water purification process" loading="lazy">
+                        <div class="blog-card-image-overlay"></div>
+                        <span class="blog-category">Water Treatment</span>
+                    </div>
+                    <div class="blog-card-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">Nov 18, 2024</span>
+                            <span class="blog-read">7 min read</span>
+                        </div>
+                        <h3 class="blog-title">Reverse Osmosis vs. UV Treatment: Choosing the Right System for Your
+                            Water Source</h3>
+                        <p class="blog-excerpt">Not all water treatment systems are created equal. We break down when RO
+                            makes sense over UV sterilisation, how to test your raw water chemistry, and why getting
+                            this decision wrong can cost you thousands annually.</p>
+                        <a href="#" class="blog-link">
+                            Read Article
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M5 12h14" />
+                                <path d="m12 5 7 7-7 7" />
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Article 4 -->
+                <article class="blog-card" data-animate="fade-up" data-delay="0">
+                    <div class="blog-card-image">
+                        <img src="https://images.unsplash.com/photo-1562016600-ece13e8ba570?w=600&h=360&fit=crop"
+                            alt="Water storage infrastructure" loading="lazy">
+                        <div class="blog-card-image-overlay"></div>
+                        <span class="blog-category">Water Storage</span>
+                    </div>
+                    <div class="blog-card-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">Oct 29, 2024</span>
+                            <span class="blog-read">5 min read</span>
+                        </div>
+                        <h3 class="blog-title">Steel vs. Poly vs. Concrete: The Real-World Storage Tank Comparison
+                            Nobody Talks About</h3>
+                        <p class="blog-excerpt">We've installed all three types across hundreds of projects. Here's an
+                            honest breakdown of lifespan, cost per litre stored, maintenance needs, and which material
+                            wins for each application — from rooftop tanks to 200,000L ground reservoirs.</p>
+                        <a href="#" class="blog-link">
+                            Read Article
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M5 12h14" />
+                                <path d="m12 5 7 7-7 7" />
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Article 5 -->
+                <article class="blog-card" data-animate="fade-up" data-delay="100">
+                    <div class="blog-card-image">
+                        <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&h=360&fit=crop"
+                            alt="Civil engineering project site" loading="lazy">
+                        <div class="blog-card-image-overlay"></div>
+                        <span class="blog-category">Civil Works</span>
+                    </div>
+                    <div class="blog-card-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">Sep 12, 2024</span>
+                            <span class="blog-read">6 min read</span>
+                        </div>
+                        <h3 class="blog-title">Pipeline Installation in Rocky Terrain: Lessons from 40km of Trenchwork
+                            in Masvingo</h3>
+                        <p class="blog-excerpt">Rocky substrates demand different trenching strategies, pipe materials,
+                            and thrust block engineering. We share hard-won lessons from a challenging 40-kilometre
+                            pipeline project and what we'd do differently next time.</p>
+                        <a href="#" class="blog-link">
+                            Read Article
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M5 12h14" />
+                                <path d="m12 5 7 7-7 7" />
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Article 6 -->
+                <article class="blog-card" data-animate="fade-up" data-delay="200">
+                    <div class="blog-card-image">
+                        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=360&fit=crop"
+                            alt="Engineering feasibility study" loading="lazy">
+                        <div class="blog-card-image-overlay"></div>
+                        <span class="blog-category">Consultancy</span>
+                    </div>
+                    <div class="blog-card-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">Aug 5, 2024</span>
+                            <span class="blog-read">9 min read</span>
+                        </div>
+                        <h3 class="blog-title">How to Read a Feasibility Study: A Non-Technical Guide for Project
+                            Funders and Decision-Makers</h3>
+                        <p class="blog-excerpt">Feasibility reports are dense, technical documents — but the decisions
+                            they drive are worth millions. We explain how to interpret hydrogeological data, read
+                            cost-benefit analyses, and ask the right questions before signing off on a water or energy
+                            project.</p>
+                        <a href="#" class="blog-link">
+                            Read Article
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M5 12h14" />
+                                <path d="m12 5 7 7-7 7" />
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CTA BANNER ========== -->
+    <section class="cta-banner">
+        <div class="cta-bg">
+            <div class="cta-gradient"></div>
+        </div>
+        <div class="container cta-container" data-animate="fade-up">
+            <h2 class="cta-title">Ready to Start Your Project?</h2>
+            <p class="cta-text">Whether you need a single borehole or a complete water distribution network, our team is
+                ready to deliver. Get a free site assessment and project quote.</p>
+            <div class="cta-actions">
+                <a href="#contact" class="btn btn-white btn-lg">
+                    Get Free Assessment
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14" />
+                        <path d="m12 5 7 7-7 7" />
+                    </svg>
+                </a>
+                <a href="tel:+263780000000" class="btn btn-ghost btn-lg">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path
+                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+                    </svg>
+                    Call Us Now
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info" data-animate="fade-right">
+                    <span class="section-tag">Get In Touch</span>
+                    <h2 class="section-title">Let's Engineer Your Solution</h2>
+                    <p class="contact-text">Reach out for a free consultation. Our engineers will assess your needs and
+                        design the optimal system for your site.</p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-item-icon">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                                    <circle cx="12" cy="10" r="3" />
+                                </svg>
+                            </div>
+                            <div>
+                                <strong>Office</strong>
+                                <p>14 Engineering Drive, Harare, Zimbabwe</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-item-icon">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path
+                                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <strong>Phone</strong>
+                                <p>+263 78 000 0000</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-item-icon">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path
+                                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                    <polyline points="22,6 12,13 2,6" />
+                                </svg>
+                            </div>
+                            <div>
+                                <strong>Email</strong>
+                                <p>info@aquavolt.co.zw</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-hours">
+                        <h4>Office Hours</h4>
+                        <p>Mon - Fri: 07:30 - 17:00</p>
+                        <p>Sat: 08:00 - 13:00</p>
+                        <p>24/7 Emergency Support Available</p>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper" data-animate="fade-left">
+                    <form class="contact-form" id="contactForm">
+                        <h3 class="form-title">Request a Free Quote</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name</label>
+                                <input type="text" id="firstName" name="firstName" placeholder="John" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" id="lastName" name="lastName" placeholder="Doe" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="john@company.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+263 7X XXX XXXX">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Required</label>
+                            <select id="service" name="service" required>
+                                <option value="" disabled selected>Select a service</option>
+                                <option value="borehole">Borehole Drilling & Equipping</option>
+                                <option value="treatment">Water Treatment</option>
+                                <option value="storage">Water Storage Tanks</option>
+                                <option value="solar">Solar Backup Systems</option>
+                                <option value="civil">Civil Works</option>
+                                <option value="consultancy">Engineering Consultancy</option>
+                                <option value="multiple">Multiple Services</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Project Details</label>
+                            <textarea id="message" name="message" rows="4"
+                                placeholder="Tell us about your project, location, and requirements..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg btn-full">
+                            Send Request
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="22" y1="2" x2="11" y2="13" />
+                                <polygon points="22 2 15 22 11 13 2 9 22 2" />
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2.5" />
+                            <path
+                                d="M20 8C20 8 12 18 12 23C12 27.4183 15.5817 31 20 31C24.4183 31 28 27.4183 28 23C28 18 20 8 20 8Z"
+                                fill="currentColor" opacity="0.3" />
+                            <path
+                                d="M20 8C20 8 12 18 12 23C12 27.4183 15.5817 31 20 31C24.4183 31 28 27.4183 28 23C28 18 20 8 20 8Z"
+                                stroke="currentColor" stroke-width="2" />
+                            <path d="M15 22L18 19L22 23L25 20" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span class="logo-text">Trevcon<span class="logo-accent">Engineering</span></span>
+                    </a>
+                    <p class="footer-description">Delivering reliable water and energy infrastructure across Southern
+                        Africa since 2012.</p>
+                </div>
+                <div class="footer-links-group">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Borehole Drilling</a></li>
+                        <li><a href="#services">Water Treatment</a></li>
+                        <li><a href="#services">Storage Tanks</a></li>
+                        <li><a href="#services">Solar Systems</a></li>
+                        <li><a href="#services">Civil Works</a></li>
+                        <li><a href="#services">Consultancy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-group">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-group">
+                    <h4>Connect</h4>
+                    <div class="footer-social">
+                        <a href="#" aria-label="LinkedIn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Facebook">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Twitter/X">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Trevcon Engineering. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
