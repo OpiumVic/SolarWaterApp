@@ -1,5 +1,5 @@
 /* ============================================
-   AQUAVOLT ENGINEERING — INTERACTIVE JS
+   TREVCON ENGINEERING — INTERACTIVE JS
    ============================================ */
 
 document.addEventListener('DOMContentLoaded', () => {
